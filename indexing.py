@@ -90,6 +90,8 @@ def run_rag_pipeline(file_path: str):
     #for i, result in enumerate(results, start=1):
     #    print(f"{i}. {result.page_content[:200]}...")
 
+    return vectorstore  # Return the vector store for further use (e.g., retrieval, generation)
+    
 # ==========================
 # Main execution block
 
